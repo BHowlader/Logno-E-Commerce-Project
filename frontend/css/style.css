@@ -106,8 +106,7 @@ a {
     background-color: #005f8f;
 }
 
-.products-section,
-.about-section {
+.products-section {
     max-width: 1100px;
     margin: 0 auto;
     padding: 60px 20px;
@@ -118,8 +117,7 @@ a {
     text-align: center;
 }
 
-.section-heading h2,
-.about-section h2 {
+.section-heading h2 {
     font-size: 32px;
 }
 
@@ -187,16 +185,6 @@ button {
 
 button:hover {
     background-color: #008b8b;
-}
-
-.about-section {
-    text-align: center;
-}
-
-.about-section p {
-    max-width: 760px;
-    margin: 12px auto 0;
-    color: #506070;
 }
 
 .site-footer {
