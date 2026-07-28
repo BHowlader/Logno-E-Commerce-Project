@@ -223,3 +223,50 @@ button:hover {
         grid-template-columns: 1fr;
     }
 }
+
+.cart-dialog {
+    max-width: 420px;
+    width: 90%;
+    margin: auto; /* the * reset zeroes dialog's default centering margin */
+    padding: 24px;
+    color: inherit;
+    border: 0;
+    border-radius: 10px;
+}
+
+.cart-dialog::backdrop {
+    background-color: rgba(2, 48, 71, 0.5);
+}
+
+.cart-dialog h2 {
+    margin-bottom: 14px;
+}
+
+.cart-dialog ul {
+    list-style: none;
+}
+
+.cart-dialog li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px solid #d9ecf8;
+}
+
+.cart-dialog li button {
+    padding: 4px 10px;
+    background-color: #e63946;
+    font-size: 13px;
+}
+
+.cart-dialog li button:hover {
+    background-color: #c92c38;
+}
+
+.cart-total {
+    margin: 14px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
