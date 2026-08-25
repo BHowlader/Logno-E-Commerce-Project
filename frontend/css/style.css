@@ -173,20 +173,6 @@ a {
     font-weight: 700;
 }
 
-button {
-    padding: 9px 12px;
-    color: #ffffff;
-    background-color: #00a6a6;
-    border: 0;
-    border-radius: 6px;
-    cursor: pointer;
-    font-weight: 700;
-}
-
-button:hover {
-    background-color: #008b8b;
-}
-
 .site-footer {
     padding: 26px 20px;
     color: #ffffff;
